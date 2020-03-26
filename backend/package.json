@@ -1,0 +1,22 @@
+{
+  "name": "beahero",
+  "version": "1.0.0",
+  "description": "Backend for the OmniStack project: Be A Hero",
+  "main": "index.js",
+  "repository": "github.com/leandrobraga/beahero",
+  "author": "Leandro Quadros D. Braga",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
